@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Managed datasets (loaded via load_* tools)
+data/
+
+# Cityflo-provided brief and sample data (not ours to publish)
+demo/
+instructions/
+
+# Secrets and local config
+.env
+.env.*
+.mcp_token
+*.token
+*.pem
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Raw session exports and scratch files (submit via the upload tool, not the repo)
+*.jsonl.bak
+scratch/
